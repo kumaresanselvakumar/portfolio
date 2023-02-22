@@ -213,8 +213,12 @@ img {
     width: 300px;
 }
 
-.home_img svg {
-    width: 100%;
+.home_img img {
+    position: absolute;
+    mix-blend-mode:overlay;
+    height: 200px;
+    width: 300px;
+    top: -100px;
 }
 
 .resume_quotes {
